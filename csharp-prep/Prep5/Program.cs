@@ -22,7 +22,7 @@ class Program
             int squared = number * number;
             return squared;
         }
-        static string DisplayResult(string name, int squared){
+        static void DisplayResult(string name, int squared){
             Console.WriteLine($"{name}, the number you selected squareed is {squared}.");
         }
     }
