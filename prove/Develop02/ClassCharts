@@ -1,0 +1,29 @@
+//Here are the Class charts for the Program:
+
+//1. the journal prompts
+//          _entry1 = string
+//         _entry2 = string
+//         _entry3 = string
+//         _entry4 = string
+//         _entry5 = string
+//         _entry6 = string
+//         _entry7 = string
+//         _entry8 = string
+//         _entry9 = string
+//         _entry10 = string
+
+//         showEntry(): void
+
+// 2. the journal - stores entries
+//         in an array:
+//         blank until added in
+
+
+//         entryAdd(): void
+//         entryDisplay(): void
+//         entrySave(): 
+//         entryLoad();
+
+// 3. JournalEntry - makes the journal entries
+
+//         entryCreate():void
