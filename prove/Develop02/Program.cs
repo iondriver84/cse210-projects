@@ -113,7 +113,7 @@ class Program
             Console.WriteLine("5. Exit");
             Console.Write("Select an option: ");
 
-            if (int.TryParse(Console.ReadLine(), out int option))
+            5
             {
                 switch (option)
                 {
