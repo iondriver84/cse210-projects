@@ -1,0 +1,25 @@
+class ChecklistGoalActivity : Activity
+{    
+    private int completedTimes;
+
+    public override void RecordEvent()
+    {
+        Console.WriteLine("Event recorded for checklist goal. You earned some points!");
+        Points+=50;
+        completedTimes++;
+
+        if(completedTimes == MilestoneIntervals)
+        {
+            Points+=500;
+            Console.WriteLine("Congratulations! You have achieved one of your desired goals! You have earned a bonus!");
+        }
+    }
+    public override void DisplayGoals()
+    {
+        Console.WriteLine($"Eternal Goal: {BigGoal}");
+    }
+    public override void DisplayScore()
+    {
+        Console.WriteLine($"Current Score: {Points}");
+    }
+}

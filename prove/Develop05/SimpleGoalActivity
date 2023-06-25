@@ -1,0 +1,19 @@
+class SimpleGoalActivity : Activity
+{
+    public override void RecordEvent()
+    {
+    
+        Console.WriteLine("Event recorded for a simple goal. You earned some points!");
+        Points += 1000;
+    
+    }
+    public override void DisplayGoals()
+    {
+        Console.WriteLine($"Simple Goal: {BigGoal}");
+    }
+    public override void DisplayScore()
+    {
+        Console.WriteLine($"Current Score: {Points}");
+    }
+      
+}
