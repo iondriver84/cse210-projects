@@ -23,4 +23,5 @@ public class Running : Activity
     {
         return $"{base.GetSummary()} - Distance: {distance:F2} miles, Speed: {GetSpeed:F2} mph, Pace: {GetPace():F2} min/mile";
     }
+    
 }

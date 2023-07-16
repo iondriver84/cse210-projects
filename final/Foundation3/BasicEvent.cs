@@ -8,6 +8,7 @@ class BasicEvent
     private Address address;
     
 
+
     public BasicEvent(string title, string description, DateTime date, TimeSpan time, Address address)
     {
         this.title = title;

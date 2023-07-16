@@ -22,4 +22,5 @@ public class Swimming : Activity
     {
         return $"{base.GetSummary()} - Distance: {GetDistance():F2} km, Speed: {GetSpeed:F2} mph, Pace: {GetPace():F2} min/km";
     }
+    
 }    

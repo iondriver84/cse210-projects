@@ -26,5 +26,6 @@ public abstract class Activity
         return $"{date.ToString("dd MMM yyyy")} {GetType().Name} ({duration} min)";
     }
 
+
 }   
 

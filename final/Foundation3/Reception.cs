@@ -11,5 +11,6 @@ class Reception : BasicEvent
     {
         return $"{base.GetFullDetails()}\nType: reception\nRSVP Email: {rsvpEmail}";
     }
+    
 }
 

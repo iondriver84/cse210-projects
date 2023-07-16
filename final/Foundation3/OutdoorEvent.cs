@@ -11,4 +11,5 @@ class OutdoorEvent: BasicEvent
     {
         return $"{base.GetFullDetails()}\nType: Outdoor Gathering\nWeather Forecast: {weatherForecast})";
     }
+    
 }
